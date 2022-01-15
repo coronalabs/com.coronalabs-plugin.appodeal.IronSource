@@ -3,8 +3,8 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDIronSourceAdapter', },
-		frameworks = { 'IronSource', },
+		staticLibs = { 'APDIronSourceAdapter', "IronSource"},
+		frameworks = {},
 		frameworksOptional = {},
 	},
 }
